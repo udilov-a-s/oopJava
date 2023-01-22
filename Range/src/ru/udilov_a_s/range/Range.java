@@ -43,6 +43,52 @@ public class Range {
         return (number - from >= -epsilon) && (to - number >= -epsilon);
     }
 
+
+    public Range getIntersection(Range range) {
+
+        if ((range.from >= to) || (from >= range.to)) {
+
+            return null;
+        }
+
+        return new Range(Math.max(from, range.from), Math.min(to, range.to));
+    }
+
+    public Range[] getUnion(Range range) {
+
+        if ((range.from > to) || (from > range.to)) {
+
+            return new Range[]{new Range(from, to), new Range(range.from, range.to)};
+        }
+
+        return new Range[]{new Range(Math.min(from, range.from), Math.max(to, range.to))};
+    }
+
+    public Range[] getDifference(Range range) {
+
+        if (from > range.to || to < range.from) {
+
+            return new Range[]{new Range(from, to)};
+        }
+
+        if (from >= range.from && to <= range.to) {
+
+            return new Range[]{};
+        }
+
+        if (from < range.from && to >= range.from && to <= range.to) {
+
+            return new Range[]{new Range(from, range.from)};
+        }
+
+        if (from <= range.to && to > range.to && from >= range.from) {
+
+            return new Range[]{new Range(range.to, to)};
+        }
+
+        return new Range[]{new Range(from, range.from), new Range(range.to, to)};
+    }
+
     @Override
     public String toString() {
 
