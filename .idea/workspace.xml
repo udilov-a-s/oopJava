@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6126a7ac-1052-443f-834c-38cffd114678" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Range/Range.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Range/src/ru/udilov_a_s/range/Range.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Range/src/ru/udilov_a_s/range/RangeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="6126a7ac-1052-443f-834c-38cffd114678" name="Default Changelist" comment="Add metod getIntersection, getUnion, getDifference">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +90,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673714202400</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Do task Range">
+      <created>1674235097378</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674235097378</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add metod getIntersection, getUnion, getDifference">
+      <created>1674379513006</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674379513006</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Wrote a program to test methods: getIntersection, getUnion, getDifference.">
+      <created>1674380563479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674380563479</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,41 +127,44 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Do task Range" />
+    <MESSAGE value="Add metod getIntersection, getUnion, getDifference" />
+    <MESSAGE value="Wrote a program to test methods: getIntersection, getUnion, getDifference." />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote a program to test methods: getIntersection, getUnion, getDifference." />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="90" key="#Project_Structure" timestamp="1674219811325">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="313" y="90" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1674219811325" />
-    <state x="376" y="13" key="CommitChangelistDialog2" timestamp="1673714201659">
+    <state x="52" y="0" width="1442" height="811" key="CommitChangelistDialog2" timestamp="1674380562554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="376" y="13" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1673714201659" />
-    <state width="1342" height="194" key="GridCell.Tab.0.bottom" timestamp="1674234884268">
+    <state x="52" y="0" width="1442" height="811" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1674380562554" />
+    <state width="1479" height="194" key="GridCell.Tab.0.bottom" timestamp="1674379439079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1674234884268" />
-    <state width="1342" height="194" key="GridCell.Tab.0.center" timestamp="1674234884268">
+    <state width="1479" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1674379439079" />
+    <state width="1479" height="194" key="GridCell.Tab.0.center" timestamp="1674379439079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1674234884268" />
-    <state width="1342" height="194" key="GridCell.Tab.0.left" timestamp="1674234884268">
+    <state width="1479" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1674379439079" />
+    <state width="1479" height="194" key="GridCell.Tab.0.left" timestamp="1674379439079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1674234884268" />
-    <state width="1342" height="194" key="GridCell.Tab.0.right" timestamp="1674234884268">
+    <state width="1479" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1674379439079" />
+    <state width="1479" height="194" key="GridCell.Tab.0.right" timestamp="1674379439079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1674234884268" />
+    <state width="1479" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1674379439079" />
     <state x="229" y="74" key="SettingsEditor" timestamp="1673713348098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="229" y="74" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1673713348098" />
-    <state x="313" y="165" key="Vcs.Push.Dialog.v2" timestamp="1673714328655">
+    <state x="313" y="165" key="Vcs.Push.Dialog.v2" timestamp="1674235104949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="313" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1673714328655" />
+    <state x="313" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1674235104949" />
     <state x="417" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1674220250508">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
